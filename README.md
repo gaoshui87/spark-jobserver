@@ -5,6 +5,9 @@
 it is a branch from the real spark job server, I am just for modify some bug for it 
 I will commit back some code to it.
 
+you can contact me in email peiyuanzhou@gmail.com
+
+
 
 spark-jobserver provides a RESTful interface for submitting and managing [Apache Spark](http://spark-project.org) jobs, jars, and job contexts.
 This repo contains the complete Spark job server project, including unit tests and deploy scripts.
