@@ -1,0 +1,288 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -feature
+2 -> -language:implicitConversions
+3 -> -language:postfixOps
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+16 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\ContextLike.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\JavaSparkJob$$anonfun$validate$1.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\JavaSparkJob$$anonfun$validate$2.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\JavaSparkJob.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\NamedRddSupport$class.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\NamedRddSupport.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\NamedRdds$class.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\NamedRdds.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJob.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobBase.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobInvalid$.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobInvalid.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobValid$.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobValid.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobValidation$class.class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobValidation.class
+binary dependencies:
+15 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.2.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> C:\Users\Administrator.YY-20151216IMJQ\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> D:\jdk\jdk701\jre\lib\rt.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.2.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> C:\Users\Administrator.YY-20151216IMJQ\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> D:\jdk\jdk701\jre\lib\rt.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.11.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.2.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> C:\Users\Administrator.YY-20151216IMJQ\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> D:\jdk\jdk701\jre\lib\rt.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.2.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> C:\Users\Administrator.YY-20151216IMJQ\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> D:\jdk\jdk701\jre\lib\rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+3 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+1 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala
+inheritance external dependencies:
+0 items
+class names:
+16 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> spark.jobserver.ContextLike
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> spark.jobserver.JavaSparkJob
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> spark.jobserver.JavaSparkJob$$anonfun$validate$1
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> spark.jobserver.JavaSparkJob$$anonfun$validate$2
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> spark.jobserver.NamedRddSupport
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> spark.jobserver.NamedRddSupport$class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> spark.jobserver.NamedRdds
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> spark.jobserver.NamedRdds$class
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark.jobserver.SparkJob
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark.jobserver.SparkJobBase
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark.jobserver.SparkJobInvalid
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark.jobserver.SparkJobInvalid$
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark.jobserver.SparkJobValid
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark.jobserver.SparkJobValid$
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark.jobserver.SparkJobValidation
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark.jobserver.SparkJobValidation$class
+used names:
+126 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> AnyRef
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> Boolean
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> SparkContext
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> SparkJobBase
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> Unit
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> apache
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> jobserver
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> org
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> scala
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> spark
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> <init>
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> Any
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> Config
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> JavaSparkContext
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> JavaSparkJob
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> Option
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> Predef
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> SparkContext
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> SparkJob
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> SparkJobValid
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> SparkJobValidation
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> String
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> apache
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> api
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> apply
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> com
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> config
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> err
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> getOrElse
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> invalidate
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> java
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> jobConfig
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> jobserver
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> map
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> org
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> runJob
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> sc
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> scala
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> spark
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> typesafe
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> <byname>
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> <init>
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> ==
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Any
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> AnyRef
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> AtomicReference
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Boolean
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Duration
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Iterable
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> MEMORY_ONLY
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> NamedRddSupport
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> NamedRdds
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Nothing
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> NullPointerException
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Option
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Predef
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> RDD
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> SparkJob
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> StorageLevel
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> String
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> T
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> ThreadLocal
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Timeout
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> Unit
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> _root_
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> akka
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> apache
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> apply
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> atomic
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> concurrent
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> defaultStorageLevel
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> defaultTimeout
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> duration
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> get
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> java
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> jobserver
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> lang
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> namedRddsPrivate
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> ne
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> org
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> package
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> rdd
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> scala
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> spark
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> storage
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> util
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> &&
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> <init>
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> ==
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> AbstractFunction1
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> Any
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> AnyRef
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> C
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> Config
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> None
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> Nothing
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> Predef
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> Product
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> ScalaRunTime
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> Serializable
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> SparkContext
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> SparkJobBase
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> SparkJobInvalid
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> SparkJobValid
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> SparkJobValidation
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> String
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> _hashCode
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> _root_
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> _toString
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> apache
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> asInstanceOf
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> com
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> config
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> eq
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> isInstanceOf
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> jobserver
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> org
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> reason
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> runtime
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> scala
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> spark
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> sparkValidation
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> toString
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> typedProductIterator
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> typesafe
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> ||
+product stamps:
+16 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\ContextLike.class -> lastModified(1456736173218)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\JavaSparkJob$$anonfun$validate$1.class -> lastModified(1456736173241)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\JavaSparkJob$$anonfun$validate$2.class -> lastModified(1456736173244)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\JavaSparkJob.class -> lastModified(1456736173236)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\NamedRdds$class.class -> lastModified(1456736173257)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\NamedRdds.class -> lastModified(1456736173254)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\NamedRddSupport$class.class -> lastModified(1456736173249)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\NamedRddSupport.class -> lastModified(1456736173246)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJob.class -> lastModified(1456736173258)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobBase.class -> lastModified(1456736173259)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobInvalid$.class -> lastModified(1456736173274)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobInvalid.class -> lastModified(1456736173270)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobValid$.class -> lastModified(1456736173279)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobValid.class -> lastModified(1456736173276)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobValidation$class.class -> lastModified(1456736173282)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\target\scala-2.10\classes\spark\jobserver\SparkJobValidation.class -> lastModified(1456736173280)
+source stamps:
+4 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> hash(68a2362ca41c83ba53f8c0f4863a868d4394e9f9)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> hash(64ce2f6e4f702f545c796e73a3b7ccdb02be94e1)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> hash(a2d094f9e1dbb82dbe3b0b99f89a1ebadd44f41b)
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> hash(2dc9f3438fb44fc40432547861b6ea62be277244)
+binary stamps:
+5 items
+C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.11.jar -> lastModified(1431094322000)
+C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar -> lastModified(1399042454000)
+C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.2.jar -> lastModified(1446582950000)
+C:\Users\Administrator.YY-20151216IMJQ\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> lastModified(1395179187000)
+D:\jdk\jdk701\jre\lib\rt.jar -> lastModified(1393308054308)
+class names:
+5 items
+C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.11.jar -> akka.util.Timeout
+C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar -> com.typesafe.config.Config
+C:\Users\Administrator.YY-20151216IMJQ\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.2.jar -> org.apache.spark.SparkContext$
+C:\Users\Administrator.YY-20151216IMJQ\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> scala.Serializable
+D:\jdk\jdk701\jre\lib\rt.jar -> java.lang.Object
+internal apis:
+4 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA7viaFAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAqSwb10AAZub3RpZnlzcQB+AAztoBuodAAKaXNWYWxpZEpvYnNxAH4ADEnnWr10AAR3YWl0c3EAfgAMrsd+9HQADSRhc0luc3RhbmNlT2ZzcQB+AAwu9atOdAAGZXF1YWxzc3EAfgAMyLo+qHQADGFzSW5zdGFuY2VPZnNxAH4ADI2EiWN0AAxzeW5jaHJvbml6ZWRzcQB+AAx1GovbdAANJGlzSW5zdGFuY2VPZnNxAH4ADD2Urmt0AARzdG9wc3EAfgAMQq0b73QACW5vdGlmeUFsbHNxAH4ADCExrhx0AAxpc0luc3RhbmNlT2ZzcQB+AAw8n7l3dAACPT1zcQB+AAyx7YO1dAAFY2xvbmVzcQB+AAwE90FWdAAMc3BhcmtDb250ZXh0c3EAfgAM1GXklXQACHRvU3RyaW5nc3EAfgAM4RXdi3QAAiE9c3EAfgAME0qPj3QACGdldENsYXNzc3EAfgAMjHEviXQAC0NvbnRleHRMaWtlc3EAfgAM+wnfMHQAAm5lc3EAfgAM4vU/tHQAAmVxc3EAfgAMqmrb53QAAiMjc3EAfgAMHlSAdnQACGZpbmFsaXplc3EAfgAMqjLMXnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ARXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAXQAG3NwYXJrLmpvYnNlcnZlci5Db250ZXh0TGlrZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AXnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXQBwc3EAfgBic3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AZnNxAH4AXQBwc3EAfgBidXEAfgBAAAAAAHNxAH4AXQBwc3EAfgBidXEAfgBAAAAAAHNxAH4AXQBwc3EAfgBidXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBldAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBlc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCCdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCDc3EAfgB2dAADQW55c3EAfgB6c3EAfgB9dXEAfgCAAAAAAnNxAH4AgnQABXNjYWxhcQB+AIl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAVzcGFya3NxAH4Ak3QAD3NwYXJrLmpvYnNlcnZlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyw98m91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABfRDpcd29ya3NwYWNlXHl5Y2xvdVxzcGFya2pvYnNlclxzcGFyay1qb2JzZXJ2ZXItbWFzdGVyXGpvYi1zZXJ2ZXItYXBpXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRoojYspByDulP4wPSGOoaNQ5Tp+Q==
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD6Q1NNAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLFj5n10AAZub3RpZnlzcQB+AAxpsFZydAAEd2FpdHNxAH4ADIoKnlF0AA0kYXNJbnN0YW5jZU9mc3EAfgAM7geUZnQABmVxdWFsc3NxAH4ADJIOFYB0AAxhc0luc3RhbmNlT2ZzcQB+AAx5ou6kdAAIdmFsaWRhdGVzcQB+AAyrtapTdAAMc3luY2hyb25pemVkc3EAfgAMm1pAtXQACmludmFsaWRhdGVzcQB+AAxhrNXqdAANJGlzSW5zdGFuY2VPZnNxAH4ADMafiUl0AAlub3RpZnlBbGxzcQB+AAzwA/SadAAMaXNJbnN0YW5jZU9mc3EAfgAMwV6yG3QABjxpbml0PnNxAH4ADKzJpLd0AAI9PXNxAH4ADDAGqIx0AAVjbG9uZXNxAH4ADOEwIAN0AAZydW5Kb2JzcQB+AAwaR8ubdAAMSmF2YVNwYXJrSm9ic3EAfgAMW1OQXnQAAUNzcQB+AAx2tOy7dAAIdG9TdHJpbmdzcQB+AAznNJD1dAACIT1zcQB+AAxaEKDhdAAIZ2V0Q2xhc3NzcQB+AAx3NAxOdAACbmVzcQB+AAxqUJThdAACZXFzcQB+AAxYFLJWdAACIyNzcQB+AAxO4kD5dAAIZmluYWxpemVzcQB+AAxe2ozRdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBJeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAcc3Bhcmsuam9ic2VydmVyLkphdmFTcGFya0pvYnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AYnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AYQBwc3EAfgBmc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AElMAAlpbmhlcml0ZWRxAH4ASUwAB3BhcmVudHNxAH4ASXhxAH4AanNxAH4AYQBwc3EAfgBmdXEAfgBEAAAAAHNxAH4AYQBwc3EAfgBmdXEAfgBEAAAAAHNxAH4AYQBwc3EAfgBmdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAARzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBpdAAIU3BhcmtKb2JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGlzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNwYXJrc3EAfgCGdAAJam9ic2VydmVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIdzcQB+AHp0AAxTcGFya0pvYkJhc2VxAH4AgHNxAH4AenQABk9iamVjdHNxAH4AfnNxAH4AgXVxAH4AhAAAAANzcQB+AIZ0AARqYXZhc3EAfgCGdAAEbGFuZ3EAfgCNc3EAfgB6dAADQW55c3EAfgB+c3EAfgCBdXEAfgCEAAAAAnNxAH4AhnQABXNjYWxhcQB+AI11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAVzcGFya3NxAH4AonQAD3NwYXJrLmpvYnNlcnZlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyw98m91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABfRDpcd29ya3NwYWNlXHl5Y2xvdVxzcGFya2pvYnNlclxzcGFyay1qb2JzZXJ2ZXItbWFzdGVyXGpvYi1zZXJ2ZXItYXBpXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRkzi9uT3AvVFx5bnOjt8zbAr6U4Q==
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDO5jSCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHVlUDV0AAZub3RpZnlzcQB+AAyqah3MdAAZZ2V0T3JFbHNlQ3JlYXRlJGRlZmF1bHQkNXNxAH4ADE3fVe90ABJnZXROYW1lcyRkZWZhdWx0JDFzcQB+AAwhcoT7dAAOZGVmYXVsdFRpbWVvdXRzcQB+AAyZ1Om+dAAEd2FpdHNxAH4ADAf3gJV0ABNkZWZhdWx0U3RvcmFnZUxldmVsc3EAfgAMNaROoHQADSRhc0luc3RhbmNlT2ZzcQB+AAyxh6BTdAAGZXF1YWxzc3EAfgAMeCRwUHQADGFzSW5zdGFuY2VPZnNxAH4ADDa0F2J0ABlnZXRPckVsc2VDcmVhdGUkZGVmYXVsdCQ0c3EAfgAM2i5BiXQADHN5bmNocm9uaXplZHNxAH4ADD6rNjp0AA0kaXNJbnN0YW5jZU9mc3EAfgAMzRTb5nQACW5hbWVkUmRkc3NxAH4ADKgY/RR0AAlub3RpZnlBbGxzcQB+AAxdypoCdAAMaXNJbnN0YW5jZU9mc3EAfgAMsJ4ZMHQAEHVwZGF0ZSRkZWZhdWx0JDRzcQB+AAzXFbyXdAANZ2V0JGRlZmF1bHQkMnNxAH4ADIcfY/50AAdkZXN0cm95c3EAfgAMTw+ESnQAAj09c3EAfgAMF7fA5HQABWNsb25lc3EAfgAMS96rFHQAD05hbWVkUmRkU3VwcG9ydHNxAH4ADBSl1+B0AAYkaW5pdCRzcQB+AAyOhMcXdAAIdG9TdHJpbmdzcQB+AAx+tzcvdAACIT1zcQB+AAySLl+EdAADZ2V0c3EAfgAM0dTqFnQAEHVwZGF0ZSRkZWZhdWx0JDNzcQB+AAxEeejWdAAJTmFtZWRSZGRzc3EAfgAMrjxbcHQACGdldENsYXNzc3EAfgAMJxszoHQABnVwZGF0ZXNxAH4ADEMOJpR0AAhnZXROYW1lc3NxAH4ADEtkRI50ABBuYW1lZFJkZHNQcml2YXRlc3EAfgAM9h0u3XQAAm5lc3EAfgAMrLRYynQAD2dldE9yRWxzZUNyZWF0ZXNxAH4ADHvWXup0AAJlcXNxAH4ADFQ2XX10ABlnZXRPckVsc2VDcmVhdGUkZGVmYXVsdCQzc3EAfgAMSqD1dXQAAiMjc3EAfgAM5ZNNTHQACGZpbmFsaXplc3EAfgAMM+1dEnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AY3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAXQAGXNwYXJrLmpvYnNlcnZlci5OYW1lZFJkZHN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AHx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHsAcHNxAH4AgHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBjTAAJaW5oZXJpdGVkcQB+AGNMAAdwYXJlbnRzcQB+AGN4cQB+AIRzcQB+AHsAcHNxAH4AgHVxAH4AXgAAAABzcQB+AHsAcHNxAH4AgHVxAH4AXgAAAABzcQB+AHsAcHNxAH4AgHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ag3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ag3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AoHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AoXNxAH4AlHQAA0FueXNxAH4AmHNxAH4Am3VxAH4AngAAAAJzcQB+AKB0AAVzY2FsYXEAfgCnc3EAfgBgcQB+AG11cQB+AG4AAAAAc3EAfgBwAXQAH3NwYXJrLmpvYnNlcnZlci5OYW1lZFJkZFN1cHBvcnR1cQB+AHMAAAAAcQB+AHd1cQB+AHkAAAAAc3EAfgB7AHBzcQB+AIBxAH4AhXNxAH4AewBwc3EAfgCAc3EAfgCIc3EAfgB7AHBzcQB+AIB1cQB+AF4AAAAAc3EAfgB7AHBzcQB+AIB1cQB+AF4AAAAAc3EAfgB7AHBzcQB+AIB1cQB+AJIAAAACc3EAfgCUcQB+AJdzcQB+AJhzcQB+AJt1cQB+AJ4AAAADc3EAfgCgcQB+AKNzcQB+AKBxAH4ApXEAfgCnc3EAfgCUcQB+AKlzcQB+AJhzcQB+AJt1cQB+AJ4AAAACc3EAfgCgcQB+AK5xAH4Ap3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXNwYXJrc3EAfgDQdAAPc3Bhcmsuam9ic2VydmVyc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFTLD3yb3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AF9EOlx3b3Jrc3BhY2VceXljbG91XHNwYXJram9ic2VyXHNwYXJrLWpvYnNlcnZlci1tYXN0ZXJcam9iLXNlcnZlci1hcGlcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKLQlPnh27gtvjsLmfiaHrrdRPQb
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAZwyvCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJ3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cD9Lvyx0AAhTcGFya0pvYnNxAH4ADNoc2Cl0AAZub3RpZnlzcQB+AAy4ZjdCdAAEd2FpdHNxAH4ADPnHSNB0AA0kYXNJbnN0YW5jZU9mc3EAfgAM6Jt11HQADHByb2R1Y3RBcml0eXNxAH4ADKeEEJB0AAZlcXVhbHNzcQB+AAyWUrPZdAAMU3BhcmtKb2JCYXNlc3EAfgAMUkk4PHQADGFzSW5zdGFuY2VPZnNxAH4ADIlgx1Z0AAh2YWxpZGF0ZXNxAH4ADHw8F3R0AAxzeW5jaHJvbml6ZWRzcQB+AAyFiII6dAANJGlzSW5zdGFuY2VPZnNxAH4ADAZ9eLR0AA1TcGFya0pvYlZhbGlkc3EAfgAMBPIH7nQACGNhbkVxdWFsc3EAfgAMvOATKnQADXByb2R1Y3RQcmVmaXhzcQB+AAw06R5SdAAGcmVhc29uc3EAfgAMeyD4VHQACW5vdGlmeUFsbHNxAH4ADI9hfwd0AAtyZWFkUmVzb2x2ZXNxAH4ADIDuXnR0AAxpc0luc3RhbmNlT2ZzcQB+AAz1+10fdAAPU3BhcmtKb2JJbnZhbGlkc3EAfgAMT2NnrXQAElNwYXJrSm9iVmFsaWRhdGlvbnNxAH4ADMmieGd0AAY8aW5pdD5zcQB+AAwvXZqzdAACPT1zcQB+AAzI/I5ydAAFY2xvbmVzcQB+AAyjGn6gdAAGJGluaXQkc3EAfgAMiZ4tLHQABnJ1bkpvYnNxAH4ADKUb/Ax0AAFDc3EAfgAMDV6SQHQABGNvcHlzcQB+AAyJg7MrdAAIdG9TdHJpbmdzcQB+AAwd7gAmdAACIT1zcQB+AAxmeURidAACJiZzcQB+AAyBn1yPdAAIZ2V0Q2xhc3NzcQB+AAyXB4HzdAAOY29weSRkZWZhdWx0JDFzcQB+AAzyTArUdAACbmVzcQB+AAwP5/6KdAACZXFzcQB+AAwDhoUFdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMXe67W3QAAiMjc3EAfgAMbdx3uXQACGZpbmFsaXplc3EAfgAMT0NGbnQADnByb2R1Y3RFbGVtZW50c3EAfgAM8FH+r3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AZXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwCXQAInNwYXJrLmpvYnNlcnZlci5TcGFya0pvYlZhbGlkYXRpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AH54cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AH0AcHNxAH4AgnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBlTAAJaW5oZXJpdGVkcQB+AGVMAAdwYXJlbnRzcQB+AGV4cQB+AIZzcQB+AH0AcHNxAH4AgnVxAH4AYAAAAABzcQB+AH0AcHNxAH4AgnVxAH4AYAAAAABzcQB+AH0AcHNxAH4AgnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AhXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AhXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AonQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ao3NxAH4AlnQAA0FueXNxAH4AmnNxAH4AnXVxAH4AoAAAAAJzcQB+AKJ0AAVzY2FsYXEAfgCpc3EAfgBicQB+AG91cQB+AHAAAAAAc3EAfgByAHQAHXNwYXJrLmpvYnNlcnZlci5TcGFya0pvYlZhbGlkdXEAfgB1AAAAAH5xAH4Ad3QABk1vZHVsZXVxAH4AewAAAABzcQB+AH0AcHNxAH4AgnEAfgCHc3EAfgB9AHBzcQB+AIJzcQB+AIpzcQB+AH0AcHNxAH4AgnVxAH4AYAAAAABzcQB+AH0AcHNxAH4AgnVxAH4AYAAAAABzcQB+AH0AcHNxAH4AgnVxAH4AlAAAAAdzcQB+AJZ0AAxTZXJpYWxpemFibGVzcQB+AJpzcQB+AJ11cQB+AKAAAAACc3EAfgCicQB+ALBxAH4AqXNxAH4AlnEAfgDIc3EAfgCac3EAfgCddXEAfgCgAAAAA3NxAH4AonEAfgClc3EAfgCidAACaW9xAH4AqXNxAH4AlnQAB1Byb2R1Y3RxAH4AyXNxAH4AlnQABkVxdWFsc3EAfgDJc3EAfgCWdAASU3BhcmtKb2JWYWxpZGF0aW9uc3EAfgCac3EAfgCddXEAfgCgAAAAA3NxAH4AonQABXNwYXJrc3EAfgCidAAJam9ic2VydmVycQB+AKlzcQB+AJZxAH4AmXNxAH4AmnNxAH4AnXVxAH4AoAAAAANzcQB+AKJxAH4ApXNxAH4AonEAfgCncQB+AKlzcQB+AJZxAH4Aq3EAfgDJc3EAfgBicQB+AG91cQB+AHAAAAAAc3EAfgByAHQAH3NwYXJrLmpvYnNlcnZlci5TcGFya0pvYkludmFsaWR1cQB+AHUAAAAAfnEAfgB3dAAIQ2xhc3NEZWZ1cQB+AHsAAAAAc3EAfgB9AHBzcQB+AIJxAH4Ah3NxAH4AfQBwc3EAfgCCc3EAfgCKc3EAfgB9AHBzcQB+AIJ1cQB+AGAAAAAAc3EAfgB9AHBzcQB+AIJ1cQB+AGAAAAAAc3EAfgB9AHBzcQB+AIJ1cQB+AJQAAAAHc3EAfgCWcQB+AMhzcQB+AJpzcQB+AJ11cQB+AKAAAAACc3EAfgCicQB+ALBxAH4AqXNxAH4AlnEAfgDIc3EAfgCac3EAfgCddXEAfgCgAAAAA3NxAH4AonEAfgClc3EAfgCidAACaW9xAH4AqXNxAH4AlnEAfgDVcQB+AP9zcQB+AJZ0AAZFcXVhbHNxAH4A/3NxAH4AlnQAElNwYXJrSm9iVmFsaWRhdGlvbnNxAH4AmnNxAH4AnXVxAH4AoAAAAANzcQB+AKJ0AAVzcGFya3NxAH4AonQACWpvYnNlcnZlcnEAfgCpc3EAfgCWcQB+AJlzcQB+AJpzcQB+AJ11cQB+AKAAAAADc3EAfgCicQB+AKVzcQB+AKJxAH4Ap3EAfgCpc3EAfgCWcQB+AKtxAH4A/3NxAH4AYnEAfgBvdXEAfgBwAAAAAHNxAH4AcgF0ABxzcGFyay5qb2JzZXJ2ZXIuU3BhcmtKb2JCYXNldXEAfgB1AAAAAHEAfgB5dXEAfgB7AAAAAHNxAH4AfQBwc3EAfgCCcQB+AIdzcQB+AH0AcHNxAH4AgnNxAH4AinNxAH4AfQBwc3EAfgCCdXEAfgBgAAAAAHNxAH4AfQBwc3EAfgCCdXEAfgBgAAAAAHNxAH4AfQBwc3EAfgCCdXEAfgCUAAAAAnNxAH4AlnEAfgCZc3EAfgCac3EAfgCddXEAfgCgAAAAA3NxAH4AonEAfgClc3EAfgCicQB+AKdxAH4AqXNxAH4AlnEAfgCrc3EAfgCac3EAfgCddXEAfgCgAAAAAnNxAH4AonEAfgCwcQB+AKlzcQB+AGJxAH4Ab3VxAH4AcAAAAABzcQB+AHIBdAAYc3Bhcmsuam9ic2VydmVyLlNwYXJrSm9idXEAfgB1AAAAAHEAfgB5dXEAfgB7AAAAAHNxAH4AfQBwc3EAfgCCcQB+AIdzcQB+AH0AcHNxAH4AgnNxAH4AinNxAH4AfQBwc3EAfgCCdXEAfgBgAAAAAHNxAH4AfQBwc3EAfgCCdXEAfgBgAAAAAHNxAH4AfQBwc3EAfgCCdXEAfgCUAAAAA3NxAH4AlnQADFNwYXJrSm9iQmFzZXNxAH4AmnNxAH4AnXVxAH4AoAAAAANzcQB+AKJ0AAVzcGFya3NxAH4AonQACWpvYnNlcnZlcnEAfgCpc3EAfgCWcQB+AJlzcQB+AJpzcQB+AJ11cQB+AKAAAAADc3EAfgCicQB+AKVzcQB+AKJxAH4Ap3EAfgCpc3EAfgCWcQB+AKtzcQB+AJpzcQB+AJ11cQB+AKAAAAACc3EAfgCicQB+ALBxAH4AqXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXNwYXJrc3EAfgFmdAAPc3Bhcmsuam9ic2VydmVyc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFTLD3yb3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AF9EOlx3b3Jrc3BhY2VceXljbG91XHNwYXJram9ic2VyXHNwYXJrLWpvYnNlcnZlci1tYXN0ZXJcam9iLXNlcnZlci1hcGlcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFC3J80OPtE/EBDJUeGG26mK+J3JE
+external apis:
+0 items
+source infos:
+4 items
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\ContextLike.scala -> 
+AAAAAAAAAAA=
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\JavaSparkJob.scala -> 
+AAAAAAAAAAA=
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\NamedRddSupport.scala -> 
+AAAAAAAAAAA=
+D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server-api\src\spark.jobserver\SparkJob.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyw98m91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAX0Q6XHdvcmtzcGFjZVx5eWNsb3Vcc3Bhcmtqb2JzZXJcc3Bhcmstam9ic2VydmVyLW1hc3Rlclxqb2Itc2VydmVyLWFwaVx0YXJnZXRcc2NhbGEtMi4xMFxjbGFzc2VzdAABLw==

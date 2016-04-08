@@ -1,0 +1,408 @@
+[2016-04-08 11:39:33,448] INFO  spark.jobserver.JobServer$ [] [] -  start 
+[2016-04-08 11:39:39,017] INFO  spark.jobserver.JobServer$ [] [] - start get log_dir
+[2016-04-08 11:39:40,084] INFO  spark.jobserver.JobServer$ [] [] - Starting JobServer with config {
+    # application.conf: 98
+    # Default settings for ad hoc as well as manually created contexts
+    # You can add any Spark config params here, for example, spark.mesos.coarse = true
+    "context-settings" : {
+        # application.conf: 104
+        # A zero-arg class implementing spark.jobserver.context.SparkContextFactory
+        # Determines the type of jobs that can run in a SparkContext
+        "context-factory" : "spark.jobserver.context.DefaultSparkContextFactory",
+        # application.conf: 121
+        "context-init-timeout" : "15s",
+        # application.conf: 100
+        # Executor memory per node, -Xmx style eg 512m, 1G, etc.
+        "memory-per-node" : "512m",
+        # application.conf: 99
+        # Number of cores to allocate.  Required.
+        "num-cpu-cores" : 4,
+        # application.conf: 123
+        "passthrough" : {
+            # application.conf: 124
+            "spark" : {
+                # application.conf: 124
+                "driver" : {
+                    # application.conf: 124
+                    # Ignore the Multiple context exception related with SPARK-2243
+                    "allowMultipleContexts" : true
+                }
+            }
+        },
+        # application.conf: 106
+        "streaming" : {
+            # application.conf: 108
+            # Default batch interval for Spark Streaming contexts in milliseconds
+            "batch_interval" : 1000,
+            # application.conf: 111
+            # if true, stops gracefully by waiting for the processing of all received data to be completed
+            "stopGracefully" : true,
+            # application.conf: 115
+            # if true, stops the SparkContext with the StreamingContext. The underlying SparkContext will be
+            # stopped regardless of whether the StreamingContext has been started.
+            "stopSparkContext" : true
+        }
+    },
+    # application.conf: 88
+    # predefined Spark contexts
+    # Below is an example, but do not uncomment it.   Everything defined here is carried over to
+    # deploy-time configs, so they will be created in all environments.  :(
+    "contexts" : {},
+    # application.conf: 7
+    "jobserver" : {
+        # application.conf: 9
+        "bind-address" : "0.0.0.0",
+        # application.conf: 70
+        # Time out for job server to wait while creating contexts
+        "context-creation-timeout" : "15 s",
+        # application.conf: 12
+        # If true, a separate JVM is forked for each Spark context
+        "context-per-jvm" : false,
+        # application.conf: 28
+        "datadao" : {
+            # application.conf: 31
+            # storage directory for files that are uploaded to the server
+            # via POST/data commands
+            "rootdir" : "/tmp/spark-jobserver/upload"
+        },
+        # application.conf: 24
+        "filedao" : {
+            # application.conf: 25
+            "rootdir" : "/tmp/spark-jobserver/filedao/data"
+        },
+        # application.conf: 15
+        # Number of job results to keep per JobResultActor/context
+        "job-result-cache-size" : 5000,
+        # application.conf: 17
+        "jobdao" : "spark.jobserver.io.JobFileDAO",
+        # application.conf: 74
+        # Number of jobs that can be run simultaneously per context
+        # If not set, defaults to number of cores on machine where jobserver is running
+        "max-jobs-per-context" : 8,
+        # application.conf: 8
+        "port" : 8090,
+        # application.conf: 67
+        # The ask pattern timeout for Api
+        "short-timeout" : "3 s",
+        # application.conf: 40
+        "sqldao" : {
+            # application.conf: 59
+            # DB connection pool settings
+            "dbcp" : {
+                # application.conf: 62
+                "initialsize" : 10,
+                # application.conf: 60
+                "maxactive" : 20,
+                # application.conf: 61
+                "maxidle" : 10
+            },
+            # application.conf: 52
+            # Full JDBC URL / init string, along with username and password.  Sorry, needs to match above.
+            # Substitutions may be used to launch job-server, but leave it out here in the default or tests won't pass
+            "jdbc" : {
+                # application.conf: 55
+                "password" : "",
+                # application.conf: 53
+                "url" : "jdbc:h2:file:/tmp/spark-jobserver/sqldao/data/h2-db",
+                # application.conf: 54
+                "user" : ""
+            },
+            # application.conf: 45
+            # JDBC driver, full classpath
+            "jdbc-driver" : "org.h2.Driver",
+            # application.conf: 48
+            # Directory where default H2 driver stores its data. Only needed for H2.
+            "rootdir" : "/tmp/spark-jobserver/sqldao/data",
+            # application.conf: 42
+            # Slick database driver, full classpath
+            "slick-driver" : "scala.slick.driver.H2Driver"
+        },
+        # application.conf: 82
+        # spark broadcst factory in yarn deployment
+        # Versions prior to 1.1.0, spark default broadcast factory is org.apache.spark.broadcast.HttpBroadcastFactory.
+        # Can't start multiple sparkContexts in the same JVM with HttpBroadcastFactory.
+        "yarn-broadcast-factory" : "org.apache.spark.broadcast.TorrentBroadcastFactory",
+        # application.conf: 77
+        # in yarn deployment, time out for job server to wait while creating contexts
+        "yarn-context-creation-timeout" : "40 s"
+    },
+    # application.conf: 3
+    "master" : "local[4]",
+    # application.conf: 5
+    # spark web UI port
+    "webUrlPort" : 8080
+}
+
+[2016-04-08 11:39:40,092] INFO  spark.jobserver.JobServer$ [] [] - Spray config: {
+    # reference.conf: 168
+    # Enables/disables automatic back-pressure handling by write buffering and
+    # receive throttling
+    "automatic-back-pressure-handling" : "on",
+    # reference.conf: 170
+    "back-pressure" : {
+        # reference.conf: 174
+        # The reciprocal rate of requested Acks per NoAcks. E.g. the default value
+        # '10' means that every 10th write request is acknowledged. This affects the
+        # number of writes each connection has to buffer even in absence of back-pressure.
+        "noack-rate" : 10,
+        # reference.conf: 179
+        # The lower limit the write queue size has to shrink to before reads are resumed.
+        # Use 'infinite' to disable the low-watermark so that reading is resumed instantly
+        # after the next successful write.
+        "reading-low-watermark" : "infinite"
+    },
+    # reference.conf: 136
+    # The time period within which the TCP binding process must be completed.
+    # Set to `infinite` to disable.
+    "bind-timeout" : "1s",
+    # reference.conf: 55
+    # The period during which a service must respond to a `ChunkedRequestStart` message
+    # with a `RegisterChunkHandler` message. During the registration period reading from
+    # the network is suspended. It is still possible that some chunks have already been
+    # received which will be buffered until the registration is received or the timeout is
+    # triggered. If the timeout is triggered the connection is immediately aborted.
+    "chunkhandler-registration-timeout" : "500 ms",
+    # reference.conf: 98
+    # Enables/disables an alternative response streaming mode that doesn't
+    # use `Transfer-Encoding: chunked` but rather renders the individual
+    # MessageChunks coming in from the application as parts of the original
+    # response entity.
+    # Enabling this mode causes all connections to be closed after a streaming
+    # response has been finished since there is no other way to signal the
+    # response end to the client.
+    # Note that chunkless-streaming is implicitly enabled when streaming
+    # responses to HTTP/1.0 clients (since they don't support
+    # `Transfer-Encoding: chunked`)
+    "chunkless-streaming" : "off",
+    # application.conf: 182
+    # Needed for HTTP/1.0 requests with missing Host headers
+    "default-host-header" : "spray.io:8765",
+    # application.conf: 177
+    # ssl engine provider protocols
+    "enabledProtocols" : [
+        # application.conf: 177
+        "SSLv3",
+        # application.conf: 177
+        "TLSv1"
+    ],
+    # application.conf: 172
+    # see http://docs.oracle.com/javase/7/docs/technotes/guides/security/StandardNames.html#SSLContext for more examples
+    # typical are either SSL or TLS
+    "encryptionType" : "SSL",
+    # application.conf: 178
+    "idle-timeout" : "60 s",
+    # application.conf: 173
+    "keystoreType" : "JKS",
+    # reference.conf: 132
+    # For HTTPS connections this setting specified the maximum number of
+    # bytes that are encrypted in one go. Large responses are broken down in
+    # chunks of this size so as to already begin sending before the response has
+    # been encrypted entirely.
+    "max-encryption-chunk-size" : "1m",
+    # merge of application.conf: 185,reference.conf: 320
+    # The (default) configuration of the HTTP message parser for the server and
+    # the client.
+    # IMPORTANT: These settings (i.e. children of `spray.can.parsing`) can't be directly
+    # overridden in `application.conf` to change the parser settings for client and server
+    # altogether (see https://github.com/spray/spray/issues/346). Instead, override the
+    # concrete settings beneath `spray.can.server.parsing` and `spray.can.client.parsing`
+    # where these settings are copied to.
+    "parsing" : {
+        # reference.conf: 357
+        # limits for the number of different values per header type that the
+        # header cache will hold
+        "header-cache" : {
+            # reference.conf: 359
+            "Content-MD5" : 0,
+            # reference.conf: 360
+            "Date" : 0,
+            # reference.conf: 361
+            "If-Match" : 0,
+            # reference.conf: 362
+            "If-Modified-Since" : 0,
+            # reference.conf: 363
+            "If-None-Match" : 0,
+            # reference.conf: 364
+            "If-Range" : 0,
+            # reference.conf: 365
+            "If-Unmodified-Since" : 0,
+            # reference.conf: 366
+            "User-Agent" : 32,
+            # reference.conf: 358
+            "default" : 12
+        },
+        # reference.conf: 353
+        # Enables/disables the logging of warning messages in case an incoming
+        # message (request or response) contains an HTTP header which cannot be
+        # parsed into its high-level model class due to incompatible syntax.
+        # Note that, independently of this settings, spray will accept messages
+        # with such headers as long as the message as a whole would still be legal
+        # under the HTTP specification even without this header.
+        # If a header cannot be parsed into a high-level model instance it will be
+        # provided as a `RawHeader`.
+        "illegal-header-warnings" : "on",
+        # reference.conf: 372
+        # Sets the size starting from which incoming http-messages will be delivered
+        # in chunks regardless of whether chunking is actually used on the wire.
+        # Set to infinite to disable auto chunking.
+        "incoming-auto-chunking-threshold-size" : "infinite",
+        # reference.conf: 328
+        "max-chunk-ext-length" : 256,
+        # reference.conf: 329
+        "max-chunk-size" : "1m",
+        # application.conf: 185
+        # Increase this in order to upload bigger job jars
+        "max-content-length" : "30m",
+        # reference.conf: 326
+        "max-header-count" : 64,
+        # reference.conf: 324
+        "max-header-name-length" : 64,
+        # reference.conf: 325
+        "max-header-value-length" : "8k",
+        # reference.conf: 323
+        "max-response-reason-length" : 64,
+        # reference.conf: 322
+        # The limits for the various parts of the HTTP message parser.
+        "max-uri-length" : "2k",
+        # reference.conf: 377
+        # Enables/disables inclusion of an SSL-Session-Info header in parsed
+        # messages over SSL transports (i.e., HttpRequest on server side and
+        # HttpResponse on client side).
+        "ssl-session-info-header" : "off",
+        # reference.conf: 343
+        # Sets the strictness mode for parsing request target URIs.
+        # The following values are defined:
+        # 
+        # `strict`: RFC3986-compliant URIs are required,
+        #     a 400 response is triggered on violations
+        # 
+        # `relaxed`: all visible 7-Bit ASCII chars are allowed
+        # 
+        # `relaxed-with-raw-query`: like `relaxed` but additionally
+        #     the URI query is not parsed, but delivered as one raw string
+        #     as the `key` value of a single Query structure element.
+        # 
+        "uri-parsing-mode" : "strict"
+    },
+    # reference.conf: 154
+    # The time after which a connection is aborted (RST) after a parsing error
+    # occurred. The timeout prevents a connection which is already known to be
+    # erroneous from receiving evermore data even if all of the data will be ignored.
+    # However, in case of a connection abortion the client usually doesn't properly
+    # receive the error response. This timeout is a trade-off which allows the client
+    # some time to finish its request and receive a proper error response before the
+    # connection is forcibly closed to free resources.
+    "parsing-error-abort-timeout" : "2s",
+    # application.conf: 180
+    # for maximum performance (prevents StopReading / ResumeReading messages to the IOBridge)
+    "pipelining-limit" : 2,
+    # application.conf: 175
+    # key manager factory provider
+    "provider" : "SunX509",
+    # reference.conf: 78
+    # Enables/disables the addition of a `Raw-Request-URI` header holding the
+    # original raw request URI as the client has sent it.
+    "raw-request-uri-header" : "off",
+    # reference.conf: 65
+    # The "granularity" of timeout checking for both idle connections timeouts
+    # as well as request timeouts, should rarely be needed to modify.
+    # If set to `infinite` request and connection timeout checking is disabled.
+    "reaping-cycle" : "250 ms",
+    # reference.conf: 145
+    # The time period within which a connection handler must have been
+    # registered after the bind handler has received a `Connected` event.
+    # Set to `infinite` to disable.
+    "registration-timeout" : "1s",
+    # reference.conf: 74
+    # Enables/disables the addition of a `Remote-Address` header
+    # holding the clients (remote) IP address.
+    "remote-address-header" : "off",
+    # reference.conf: 121
+    # If this setting is non-zero the HTTP server automatically aggregates
+    # incoming request chunks into full HttpRequests before dispatching them to
+    # the application. If the size of the aggregated requests surpasses the
+    # specified limit the server responds with a `413 Request Entity Too Large`
+    # error response before closing the connection.
+    # Set to zero to disable automatic request chunk aggregation and have
+    # ChunkedRequestStart, MessageChunk and ChunkedMessageEnd messages be
+    # dispatched to the handler.
+    "request-chunk-aggregation-limit" : "1m",
+    # application.conf: 179
+    "request-timeout" : "40 s",
+    # reference.conf: 126
+    # The initial size if the buffer to render the response headers in.
+    # Can be used for fine-tuning response rendering performance but probably
+    # doesn't have to be fiddled with in most applications.
+    "response-header-size-hint" : 512,
+    # reference.conf: 12-13
+    # Always contains the deployed version of spray.
+    # Referenced, for example, from the `spray.can.server.server-header` setting.
+    "server-header" : "spray-can/1.3.3",
+    # reference.conf: 19
+    # Enables/disables SSL encryption.
+    # If enabled the server uses the implicit `ServerSSLEngineProvider` member
+    # of the `Bind` command to create `SSLEngine` instances for the underlying
+    # IO connection.
+    "ssl-encryption" : "off",
+    # reference.conf: 183
+    # Enables more verbose DEBUG logging for debugging SSL related issues.
+    "ssl-tracing" : "off",
+    # reference.conf: 70
+    # Enables/disables support for statistics collection and querying.
+    # Even though stats keeping overhead is small,
+    # for maximum performance switch off when not needed.
+    "stats-support" : "on",
+    # reference.conf: 60
+    # The path of the actor to send `spray.http.Timedout` messages to.
+    # If empty all `Timedout` messages will go to the "regular" request
+    # handling actor.
+    "timeout-handler" : "",
+    # reference.conf: 48
+    # After a `Timedout` message has been sent to the timeout handler and the
+    # request still hasn't been completed after the time period set here
+    # the server will complete the request itself with an error response.
+    # Set to `infinite` to disable timeout timeouts.
+    "timeout-timeout" : "2 s",
+    # reference.conf: 86
+    # Enables/disables automatic handling of HEAD requests.
+    # If this setting is enabled the server dispatches HEAD requests as GET
+    # requests to the application and automatically strips off all message
+    # bodies from outgoing responses.
+    # Note that, even when this setting is off the server will never send
+    # out message bodies on responses to HEAD requests.
+    "transparent-head-requests" : "on",
+    # reference.conf: 140
+    # The time period within which the TCP unbinding process must be completed.
+    # Set to `infinite` to disable.
+    "unbind-timeout" : "1s",
+    # reference.conf: 111
+    # Enables/disables the logging of the full (potentially multiple line)
+    # error message to the server logs.
+    # If disabled only a single line will be logged.
+    "verbose-error-logging" : "off",
+    # reference.conf: 106
+    # Enables/disables the returning of more detailed error messages to
+    # the client in the error response.
+    # Should be disabled for browser-facing APIs due to the risk of XSS attacks
+    # and (probably) enabled for internal or non-browser APIs.
+    # Note that spray will always produce log messages containing the full
+    # error details.
+    "verbose-error-messages" : "off"
+}
+
+[2016-04-08 11:39:41,265] INFO  ka.event.slf4j.Slf4jLogger [] [] - Slf4jLogger started
+[2016-04-08 11:39:41,441] INFO  Remoting [] [Remoting] - Starting remoting
+[2016-04-08 11:39:41,722] INFO  Remoting [] [Remoting] - Remoting started; listening on addresses :[akka.tcp://JobServer@127.0.0.1:51423]
+[2016-04-08 11:39:41,764] INFO  Cluster(akka://JobServer) [] [Cluster(akka://JobServer)] - Cluster Node [akka.tcp://JobServer@127.0.0.1:51423] - Starting up...
+[2016-04-08 11:39:42,023] INFO  Cluster(akka://JobServer) [] [Cluster(akka://JobServer)] - Cluster Node [akka.tcp://JobServer@127.0.0.1:51423] - Registered cluster JMX MBean [akka:type=Cluster]
+[2016-04-08 11:39:42,024] INFO  Cluster(akka://JobServer) [] [Cluster(akka://JobServer)] - Cluster Node [akka.tcp://JobServer@127.0.0.1:51423] - Started up successfully
+[2016-04-08 11:39:42,030] INFO  Cluster(akka://JobServer) [] [Cluster(akka://JobServer)] - Cluster Node [akka.tcp://JobServer@127.0.0.1:51423] - No seed-nodes configured, manual cluster join required
+[2016-04-08 11:39:42,175] INFO  rk.jobserver.io.JobFileDAO [] [] - rootDir is D:\tmp\spark-jobserver\filedao\data
+[2016-04-08 11:39:42,295] INFO  k.jobserver.io.JobDAOActor [] [akka://JobServer/user/dao-manager] - Starting actor spark.jobserver.io.JobDAOActor
+[2016-04-08 11:39:42,514] INFO  jobserver.DataManagerActor [] [akka://JobServer/user/data-manager] - Starting actor spark.jobserver.DataManagerActor
+[2016-04-08 11:39:42,546] INFO  spark.jobserver.JarManager [] [akka://JobServer/user/jar-manager] - Starting actor spark.jobserver.JarManager
+[2016-04-08 11:39:43,218] INFO  ocalContextSupervisorActor [] [akka://JobServer/user/context-supervisor] - Starting actor spark.jobserver.LocalContextSupervisorActor
+[2016-04-08 11:39:43,323] INFO  ark.jobserver.JobInfoActor [] [akka://JobServer/user/job-info] - Starting actor spark.jobserver.JobInfoActor
+[2016-04-08 11:39:43,345] INFO  k.jobserver.JobResultActor [] [akka://JobServer/user/context-supervisor/global-result-actor] - Starting actor spark.jobserver.JobResultActor
+[2016-04-08 11:39:45,447] INFO  spark.jobserver.WebApi [] [] - No authentication.
+[2016-04-08 11:39:54,695] INFO  spark.jobserver.WebApi [] [] - Starting browser web service...

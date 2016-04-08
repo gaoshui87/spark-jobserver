@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<checkstyle version="5.0">
+ <file name="D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server\src\spark.jobserver\io\JobFileDAO.scala">
+  <error severity="error" message="Input length = 2"/>
+ </file>
+ <file name="D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server\src\spark.jobserver\JobManager.scala">
+  <error severity="error" message="Input length = 2"/>
+ </file>
+ <file name="D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server\src\spark.jobserver\JobManagerActor.scala">
+  <error severity="error" message="Input length = 2"/>
+ </file>
+ <file name="D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server\src\spark.jobserver\WebApi.scala">
+  <error severity="error" message="Input length = 2"/>
+ </file>
+ <file name="D:\workspace\yyclou\sparkjobser\spark-jobserver-master\job-server\src\spark.jobserver\AkkaClusterSupervisorActor.scala">
+  <error severity="error" message="Input length = 2"/>
+ </file>
+</checkstyle>
